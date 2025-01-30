@@ -1,0 +1,46 @@
+.grid-container-header{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.grid-item-header{
+    background-color: greenyellow;
+    text-align: center;
+}
+
+.grid-container-games{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item-games{
+    text-align: center;
+}
+
+#logo{
+    width: 200px;
+}
+
+#gamelogo{
+    width: 100px;
+}
+
+body{
+    background-color: black;
+}
+
+button{
+    background-color: black;
+    color: greenyellow;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+
